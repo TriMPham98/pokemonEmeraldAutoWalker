@@ -9,12 +9,12 @@ pyautogui.moveTo(980, 420)
 pyautogui.doubleClick()
 
 while True:
-    # Hold down the 'A' key
-    pyautogui.keyDown('a')
+    # Hold down the 'Up' arrow key
+    pyautogui.keyDown('up')
     time.sleep(0.5)  # Keep the key pressed for half a second
-    pyautogui.keyUp('a')  # Release the 'A' key
+    pyautogui.keyUp('up')  # Release the 'Up' arrow key
 
-    # Hold down the 'D' key
-    pyautogui.keyDown('d')
+    # Hold down the 'Down' arrow key
+    pyautogui.keyDown('down')
     time.sleep(0.5)  # Keep the key pressed for half a second
-    pyautogui.keyUp('d')  # Release the 'D' key
+    pyautogui.keyUp('down')  # Release the 'Down' arrow key
