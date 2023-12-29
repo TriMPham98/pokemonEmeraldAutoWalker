@@ -5,7 +5,7 @@ import time
 pyautogui.FAILSAFE = True
 
 # Move the mouse to the specific coordinates and double click
-pyautogui.moveTo(1269, 775)
+pyautogui.moveTo(980, 420)
 pyautogui.doubleClick()
 
 while True:
