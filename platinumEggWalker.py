@@ -5,13 +5,13 @@ import time
 pyautogui.FAILSAFE = True
 
 # Move the mouse to the specific coordinates and double click
-pyautogui.moveTo(980, 420)
+pyautogui.moveTo(1275, 420)
 pyautogui.doubleClick()
 
 while True:
     # Hold down the 'Up' arrow key
     pyautogui.keyDown('up')
-    time.sleep(2)  # Keep the key pressed for half a second
+    time.sleep(2git)  # Keep the key pressed for half a second
     pyautogui.keyUp('up')  # Release the 'Up' arrow key
 
     # Hold down the 'Down' arrow key
